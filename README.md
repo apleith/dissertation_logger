@@ -4,6 +4,8 @@ This is the public facing version of the chat logger I used for my dissertation.
 
 The bots is defaulted to having 2 bots log 50 channels. The Twitch API limits you to 100 responses, which would be logged by 4 bots (i.e., 25 bots per channel). You can alter this distribution in manager.py or the default number of channels in main.py.
 
+I ran these bots on a small cluster of Raspberry Pis running Rasbian. This code has worked on all versions of Linux I have tested it on, including Ubuntu on Windows.
+
 You **must** have a Twitch account to use this logger.
 
 **NOTE:** I am not a programmer. This is strictly public so that it's accessible to those with whom I discuss my dissertation.
