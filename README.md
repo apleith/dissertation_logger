@@ -2,7 +2,7 @@
 
 This is the public facing version of the chat logger I used for my dissertation. I am presently building a more custom version of this with the new API for future use, but this is ultimately a stripped down version of the logger by [Bernardo Pire](https://github.com/bernardopires/twitch-chat-logger "twitch-chat-logger"). Unlike the original, this logger was altered to be more category-specific (e.g., Hearthstone or Just Chatting).
 
-The bots is defaulted to having 2 bots log 50 channels. The Twitch API limits you to 100 responses, which would be logged by 4 bots (i.e., 25 bots per channel). You can alter this distribution in manager.py or the default number of channels in main.py.
+The bots are defaulted to having 2 bots log 50 channels. The Twitch API limits you to 100 responses, which would be logged by 4 bots (i.e., 25 bots per channel). You can alter this distribution in manager.py or the default number of channels in main.py.
 
 I ran these bots on a small cluster of Raspberry Pis running Rasbian. This code has worked on all versions of Linux I have tested it on, including Ubuntu on Windows.
 
