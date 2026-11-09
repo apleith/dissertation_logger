@@ -1,5 +1,7 @@
 # dissertation_logger
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24066990.svg)](https://doi.org/10.5281/zenodo.24066990)
+
 A Twitch chat and stream-metadata logger, archived as it ran in December 2018 and January 2019 to collect the corpus behind:
 
 Leith, A. P. (2021). Parasocial cues: The ubiquity of parasocial relationships on Twitch. *Communication Monographs, 88*(1), 111–129. https://doi.org/10.1080/03637751.2020.1868544
@@ -61,7 +63,11 @@ These are preserved as they were, since the release documents what ran:
 
 ## Citing
 
-Cite the article above for the study and this release for the instrument. `CITATION.cff` carries both, plus the original work by Pires. The archived release is assigned a DOI through Zenodo; see the repository's release page.
+Cite the article above for the study and this release for the instrument. `CITATION.cff` carries both, plus the original work by Pires.
+
+Leith, A. P. (2026). *dissertation_logger* (Version 1.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24066990
+
+The version DOI above points to v1.0. The concept DOI https://doi.org/10.5281/zenodo.24066688 always resolves to the latest release.
 
 ## License
 
