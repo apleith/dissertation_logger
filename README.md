@@ -26,7 +26,7 @@ Each category had its own bot. Every two minutes (median 120.8 seconds) the bot 
 ## The corpus it produced
 
 - Collection window for the dissertation: December 17, 2018 to January 17, 2019.
-- Categories: 25 games and 5 non-game categories were targeted (see `archive/category-bot/categories.txt`). The stream log holds 37 category names with at least 1,000 polling cycles; the extra names are category titles Twitch changed during or after the run.
+- Categories: 25 games and 5 non-game categories were targeted (see `archive/category-bot/categories.txt`). The stream log holds 37 category names with at least 1,000 polling cycles, as recorded by Twitch at polling time; the mapping between those 37 names and the 30 targets has not been reconciled.
 - Stream log: 33,130,708 rows (channel, title, game, viewers, time).
 - Chat: 44.4 million messages in the 2018 to 2019 wave that the 2021 article analyzed. A second run of the same bots in 2020 added 321.3 million messages, for 365,746,388 in the consolidated corpus.
 - Channels: 117,943 distinct channels appeared in the raw logs before the partner, language, and message-count filters described in the article.
