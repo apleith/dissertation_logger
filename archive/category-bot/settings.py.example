@@ -1,0 +1,19 @@
+IRC = {
+    'SERVER': 'irc.chat.twitch.tv',
+    'NICK': 'apleithtv',
+    'PASSWORD': 'oauth:mpk9iqn32lkdbvmn0hzn8wydx8jyz8',
+    'PORT': 6667,
+}
+
+# Do not change if using docker!
+# If you're using a local database the host is 'localhost'
+DATABASE = {
+    'NAME': 'dissertation',
+    'USER': 'postgres',
+    'PASSWORD': '15266',
+    'HOST': 'localhost',
+}
+
+API = {
+	'CLIENTID': '4rw8u5h5tgghl84smtatyopz99cash'
+}

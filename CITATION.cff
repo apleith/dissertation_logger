@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or the corpus it collected, cite the 2021 article
+  below (preferred-citation) and this archived release. The code is a
+  modification of Bernardo Pires's twitch-chat-logger (see references).
+type: software
+title: dissertation_logger
+abstract: >-
+  Twitch chat and stream-metadata logger used to collect the corpus behind
+  Leith (2021), Communication Monographs. Archived as it ran in December 2018
+  and January 2019. It targets the retired Twitch API v5 (Kraken) and does not
+  run against the current Twitch API; version 2 is a planned port.
+version: 1.0.0
+date-released: "2026-11-08"
+license: MIT
+repository-code: "https://github.com/apleith/dissertation_logger"
+keywords:
+  - Twitch
+  - livestreaming
+  - chat logs
+  - IRC
+  - PostgreSQL
+  - parasocial relationships
+authors:
+  - family-names: Leith
+    given-names: Alex P.
+    orcid: "https://orcid.org/0000-0003-1310-6763"
+    affiliation: Southern Illinois University Edwardsville
+preferred-citation:
+  type: article
+  title: "Parasocial cues: The ubiquity of parasocial relationships on Twitch"
+  authors:
+    - family-names: Leith
+      given-names: Alex P.
+      orcid: "https://orcid.org/0000-0003-1310-6763"
+  journal: Communication Monographs
+  volume: 88
+  issue: 1
+  start: 111
+  end: 129
+  year: 2021
+  doi: 10.1080/03637751.2020.1868544
+references:
+  - type: software
+    title: twitch-chat-logger
+    authors:
+      - family-names: Pires
+        given-names: Bernardo
+    year: 2015
+    license: MIT
+    repository-code: "https://github.com/bernardopires/twitch-chat-logger"
+    notes: >-
+      The original work. dissertation_logger keeps its architecture and most of
+      its code; the changes are the per-category stream filter, the partner and
+      language filters, timing constants, and the database schema names.
